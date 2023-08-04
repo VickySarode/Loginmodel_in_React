@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #002acc;
+}
+
+.container2 {
+    width: 500px;
+    height: 730px;
+    padding: 65px;
+    margin-left: 680px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    background-color: white;
+    margin-bottom: 300px;
+}
+
+.head-1 {
+    font-size: 60px;
+    align-self: center;
+    margin-top: -20px;
+}
+
+.icons-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.icn a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.chkbx {
+    display: flex;
+}
+
+.icn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook {
+    background-color: #3b5999;
+}
+
+.twitter {
+    background-color: #1da1f3;
+}
+
+.cross {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 370px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.tc {
+    color: grey;
+}
+
+.reg_inp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text_trans {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.text_trans input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    width: 370px;
+    padding-left: 15px;
+    border: 2px solid grey;
+    font-size: 15px;
+}
+
+.btn_submit {
+    height: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#end {
+    align-self: center;
+    margin-top: 630px;
+    position: absolute;
+    color: grey;
+    font-size: 18px;
+}
+
+span a {
+    text-decoration: none;
+}
+
+.btn_submit:hover {
+    background-color: rgb(40, 39, 39);
+}
+
+.text_trans input:hover {
+    border: 2px solid;
+    border-radius: 0;
+}
+
+.hvr:hover {
+    color: orange;
+}
+
+.facebook:hover {
+    background-color: #3b5999e7;
+}
+
+.twitter:hover {
+    background-color: #1da1f3dd;
+}
+
+.cross:hover {
+    border: none;
+    border-radius: 50%;
+    background-color: #4d67cd53;
+}

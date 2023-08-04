@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002acc;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    padding: 65px;
+    margin-left: 680px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: white;
+}
+.container h1{
+    font-size: 50px;
+    align-self: center;
+    margin: -20px;
+}
+.icons{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.icn a{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+.icn{
+    height: 50px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.facebook{
+    background-color: #3b5999;
+}
+.twitter{
+    background-color: #1da1f3;
+}
+.cross{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 370px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.username {
+    margin-top: 30px;
+}
+.pass{
+    margin-top: 30px;
+}
+.text_trans{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+}
+.text_trans input{
+    height: 40px;
+    width: 370px;
+    padding: 0px 10px;
+    border: 2px solid grey;
+}
+.anchor{
+    text-decoration: none;
+    margin-top: 8px;
+}
+.btn_submit{
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+}
+span{
+    align-self: center;
+    margin-top: 480px;
+    position: absolute;
+    color: grey;
+    font-size: 18px;
+}
+span a{
+    text-decoration: none;
+}
+.btn_submit:hover{
+    background-color: rgb(40, 39, 39);
+}
+.text_trans input:hover{
+    border: 2px solid;
+    border-radius: 0;
+}
+span a:hover{
+    color: orange;
+}
+.hvr_org:hover{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.facebook:hover{
+    background-color: #3b5999e7;
+}
+.twitter:hover{
+    background-color: #1da1f3dd;
+}
+.cross:hover{
+    border: none;
+    border-radius: 50%;
+    background-color: #4d67cd53;
+}
